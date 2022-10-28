@@ -1,5 +1,5 @@
 # Проект: Путешествие по России
-[Ссылка на GitHub Pages](https://gasay-liza.github.io/russian-travel/_)
+[Ссылка на GitHub Pages](https://gasay-liza.github.io/russian-travel/index.html)
 ### Обзор
 * Интро
 * Figma
