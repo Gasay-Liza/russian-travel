@@ -1,0 +1,12 @@
+.place__website{
+  margin-top: auto;
+  min-height: 46px;
+}
+
+@media screen and (max-width: 540px) {
+  .place__website {
+    grid-row: 2;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
