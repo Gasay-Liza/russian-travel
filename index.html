@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="pages/index.css">
   <title>Путешествия по России</title>
 </head>
@@ -12,8 +11,8 @@
   <header class="header page__header">
     <img class="header__logo" alt="Логотип, на котором нарисована мини-карта России" src="./images/header-logo.svg">
     <ul class="header__lang-links">
-      <li class="header__item"><a class="header__lang-link header__lang-link_active">Ru</a></li>
-      <li class="header__item"><a class="header__lang-link">En</a></li>
+      <li class="header__item"><a class="header__lang-link header__lang-link_active" href="#">Ru</a></li>
+      <li class="header__item"><a class="header__lang-link" href="#">En</a></li>
     </ul>
   </header>
 
@@ -39,7 +38,7 @@
         детей, усадила их&nbsp;в&nbsp;свою &laquo;Ладу&raquo; и&nbsp;проехала 20&nbsp;тысяч километров по&nbsp;родной
         стране. Мы&nbsp;выбрали и&nbsp;описали некоторые интересные места, достойные вашего отпуска.</p>
       <ul class="intro__list">
-        <li class="intro__list-item">Часовых поясов <span class="intro\">11</span></li>
+        <li class="intro__list-item">Часовых поясов <span class="intro__span-number">11</span></li>
         <li class="intro__list-item">Объектов природного наследия ЮНЕСКО <span class="intro__span-number">12</span></li>
         <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО <span class="intro__span-number">16</span>
         </li>
@@ -64,10 +63,10 @@
     </section>
 
     <section class="places">
-      <div class="place">
+      <article class="place">
         <h2 class="place__title">Куршская коса</h2>
         <div class="place__website">
-          <h3 class="place__url-heading">URL</h3>
+          <h3 class="place__url-heading">url</h3>
           <a class="place__link" href="http://park-kosa.ru" target="=_blank">park-kosa.ru</a>
         </div>
         <img class="place__image" src="./images/place-kosa.jpg" alt="Куршская коса">
@@ -84,12 +83,12 @@
             природы и&nbsp;запах стального, прохладного моря.
           </p>
         </div>
-      </div>
+      </article>
 
-      <div class="place">
+      <article class="place">
         <h2 class="place__title">Кольский</h2>
         <div class="place__website">
-          <h3 class="place__url-heading">URL</h3>
+          <h3 class="place__url-heading">url</h3>
           <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
              target="=_blank">National
             Geographic</a>
@@ -108,12 +107,12 @@
             в&nbsp;Мурманск.
           </p>
         </div>
-      </div>
+      </article>
 
-      <div class="place">
+      <article class="place">
         <h2 class="place__title">Алтай</h2>
         <div class="place__website">
-          <h3 class="place__url-heading">URL</h3>
+          <h3 class="place__url-heading">url</h3>
           <a class="place__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
              target="=_blank">Facebook</a>
         </div>
@@ -131,12 +130,12 @@
             пасутся косули. И&nbsp;знаменитые манулы&nbsp;&mdash; тоже обитатели Алтайского края.
           </p>
         </div>
-      </div>
+      </article>
 
-      <div class="place">
+      <article class="place">
         <h2 class="place__title">Зимний Байкал</h2>
         <div class="place__website">
-          <h3 class="place__url-heading">URL</h3>
+          <h3 class="place__url-heading">url</h3>
           <a class="place__link" href="https://vk.com/baikalmile" target="=_blank">https://vk.com/baikalmile</a>
         </div>
         <img class="place__image" src="./images/place-winter-baikal.jpg" alt="Байкал">
@@ -151,12 +150,12 @@
             года на&nbsp;фестивале &laquo;Байкальская миля&raquo; был поставлен мировой рекорд&nbsp;&mdash; 197.011&nbsp;км/ч.
           </p>
         </div>
-      </div>
+      </article>
 
-      <div class="place">
+      <article class="place">
         <h2 class="place__title">Карелия</h2>
         <div class="place__website">
-          <h3 class="place__url-heading">URL</h3>
+          <h3 class="place__url-heading">url</h3>
           <a class="place__link" href="http://vodlozero.ru" target="=_blank">http://vodlozero.ru/</a>
         </div>
         <img class="place__image" src="./images/place-karelia.jpg" alt="Карелия">
@@ -173,11 +172,11 @@
             в&nbsp;паре метров от&nbsp;земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.
           </p>
         </div>
-      </div>
+      </article>
     </section>
 
     <section class="cover">
-      <a class="cover__item" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+      <a class="cover__item" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
         <h2 class="cover__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h2>
         <p class="cover__subtitle">По&nbsp;мотивам учебной темы о&nbsp;Транссибе&nbsp;&mdash; путешествие от&nbsp;столицы
           до&nbsp;Байкала на&nbsp;электричках.</p>
@@ -196,9 +195,9 @@
         <li class="footer__item"><a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
       </ul>
     </nav>
-    <div class="footer__copyright">
+    <p class="footer__copyright">
       © 2022. Elizaveta Gasay
-    </div>
+    </p>
   </footer>
 
 </div>

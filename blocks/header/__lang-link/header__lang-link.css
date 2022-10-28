@@ -1,8 +1,13 @@
 .header__lang-link{
   margin-right: 18px;
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 .header__lang-link:nth-last-of-type(1){
   margin-right: 0;
 }
 
+.header__lang-link:hover{
+  opacity: 0.8;
+}

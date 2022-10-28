@@ -8,7 +8,6 @@
 @import url('../blocks/page/__footer/page__footer.css');
 
 /* content */
-@import url('../blocks/content/_theme/content_theme_dark.css');
 @import url('../blocks/content/content.css');
 
 /* header */
@@ -18,7 +17,6 @@
 @import url('../blocks/header/__lang-link/header__lang-link.css');
 @import url('../blocks/header/__lang-link/_active/header__lang-link_active.css');
 @import url('../blocks/header/__logo/header__logo.css');
-@import url('../blocks/header/_theme/header_theme_dark.css');
 
 /* intro */
 @import url('../blocks/intro/intro.css');
@@ -27,7 +25,6 @@
 @import url('../blocks/intro/__span-number/intro__span-number.css');
 @import url('../blocks/intro/__text/intro__text.css');
 @import url('../blocks/intro/__title/intro__title.css');
-@import url('../blocks/intro/_theme/intro_theme_dark.css');
 
 /* lead */
 @import url('../blocks/lead/lead.css');
@@ -60,14 +57,9 @@
 
 /* footer */
 @import url('../blocks/footer/footer.css');
-@import url('../blocks/footer/navigation/footer__navigation.css');
+@import url('../blocks/footer/__navigation/footer__navigation.css');
 @import url('../blocks/footer/__copyright/footer__copyright.css');
 @import url('../blocks/footer/__links/footer__links.css');
 @import url('../blocks/footer/__item/footer__item.css');
 @import url('../blocks/footer/__link/footer__link.css');
-
-
-.border{
-  border: solid 1px red;
-}
 

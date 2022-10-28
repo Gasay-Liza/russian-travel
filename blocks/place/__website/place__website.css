@@ -1,6 +1,9 @@
 .place__website{
-  margin-top: auto;
-  min-height: 46px;
+  display: grid;
+  grid-gap: 12px;
+  justify-content: start;
+  align-content: end;
+  grid-template-rows: repeat(auto-fit, min-content);
 }
 
 @media screen and (max-width: 540px) {
